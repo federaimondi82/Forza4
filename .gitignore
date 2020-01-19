@@ -1,0 +1,4 @@
+# Project exclude paths
+/.gradle/
+/Forza4App/build/
+/Forza4App/build/classes/java/main/
