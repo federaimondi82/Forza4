@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "336223462376",
-    "firebase_url": "https://forza4-mobile.firebaseio.com",
-    "project_id": "forza4-mobile",
-    "storage_bucket": "forza4-mobile.appspot.com"
+    "project_number": "1003816970689",
+    "firebase_url": "https://forza4mobile.firebaseio.com",
+    "project_id": "forza4mobile",
+    "storage_bucket": "forza4mobile.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:336223462376:android:5f48f25d3f0b8747a5ba5d",
+        "mobilesdk_app_id": "1:1003816970689:android:1266d934cc4223c1246740",
         "android_client_info": {
-          "package_name": "net.studionotturno.Forza4App"
+          "package_name": "net.studionotturno.MainClass"
         }
       },
       "oauth_client": [
         {
-          "client_id": "336223462376-u00ouin73nuv8ntquoq64cdm85nr8m6i.apps.googleusercontent.com",
+          "client_id": "1003816970689-ubta2u51u034o6kik2ue7qibo5601uh4.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "net.studionotturno.Forza4App",
+            "package_name": "net.studionotturno.MainClass",
             "certificate_hash": "0b7b5dac1d05dc4117a8bec3885b7017855ca580"
           }
         },
         {
-          "client_id": "336223462376-5pu4jrk9al1k534bmndjuerd4p0rp4u0.apps.googleusercontent.com",
+          "client_id": "1003816970689-m2t72n9q1hj6clo7tla19vftgttftpu3.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCe1DfUxbAxUSf-rmOkZ88eI4nsTgadjqE"
+          "current_key": "AIzaSyAIiELmpyYt9Zyp-IwSoYOEAmgUYYYNd3U"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "336223462376-5pu4jrk9al1k534bmndjuerd4p0rp4u0.apps.googleusercontent.com",
+              "client_id": "1003816970689-m2t72n9q1hj6clo7tla19vftgttftpu3.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
