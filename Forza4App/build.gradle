@@ -16,15 +16,17 @@ repositories {
     }
 }
 
-mainClassName = 'net.studionotturno.MainClass'
+mainClassName = 'net.studionotturno.Forza4.MainClass'
 
 dependencies {
     compile 'com.gluonhq:charm:5.0.2'
     compile 'com.gluonhq:glisten-afterburner:1.4.1'
-    implementation 'com.google.firebase:firebase-analytics:17.2.0'
+    //implementation 'com.google.firebase:firebase-analytics:17.2.0'
+    //implementation 'com.google.firebase:firebase-auth:19.2.0'
 }
 
 jfxmobile {
+    javafxportsVersion = '8.60.9'
     downConfig {
         version = '3.8.6'
         // Do not edit the line below. Use Gluon Mobile Settings in your project context menu instead
@@ -32,6 +34,13 @@ jfxmobile {
     }
     android {
         manifest = 'src/android/AndroidManifest.xml'
+        dexOptions {
+            javaMaxHeapSize '3g'
+        }
+        packagingOptions {
+            exclude 'META-INF/LICENSE.txt'
+            exclude 'META-INF/NOTICE.txt'
+        }
     }
     ios {
         infoPList = file('src/ios/Default-Info.plist')
@@ -45,4 +54,4 @@ jfxmobile {
         ]
     }
 }
-apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.google.gms.google-services'

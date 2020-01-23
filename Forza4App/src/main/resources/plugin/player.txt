@@ -1,2 +1,2 @@
-bot1 net.studionotturno.domain.PlayerFactory.Bot1Factory
-real net.studionotturno.domain.PlayerFactory.RealPlayerFactory
+bot1 net.studionotturno.Forza4.domain.PlayerFactory.Bot1Factory
+real net.studionotturno.Forza4.domain.PlayerFactory.RealPlayerFactory
